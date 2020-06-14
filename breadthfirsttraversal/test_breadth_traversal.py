@@ -25,3 +25,6 @@ class TestBreadthTraversal(unittest.TestCase):
         root.left.left = br.Node(40)
         root.left.right = br.Node(50)
         self.assert_stdout(root, '10\n20\n30\n40\n50\n')
+
+if __name__ == "__main__":
+    unittest.main()

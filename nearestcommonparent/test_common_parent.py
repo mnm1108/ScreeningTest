@@ -16,3 +16,5 @@ class TestCommonParent(unittest.TestCase):
         self.assertEqual(ncp.get_parent_node(root, ncp.get_nearest_common_parent(root, 12, 10).key).key, 2)
         self.assertEqual(ncp.get_nearest_common_parent(root, 6, 8).key, 2)
 
+if __name__ == "__main__":
+    unittest.main()
